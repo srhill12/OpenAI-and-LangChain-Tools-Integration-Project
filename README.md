@@ -10,7 +10,7 @@ To run this project locally, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone <repository-url>
    ```
 
 2. **Navigate to the project directory:**
@@ -47,10 +47,11 @@ To run this project locally, follow these steps:
 
 6. **Set up the `.env` file:**
 
-   Create a `.env` file in the project root directory and add your OpenAI API key:
+   Create a `.env` file in the project root directory and add your OpenAI and OpenWeather API keys:
 
    ```bash
    OPENAI_API_KEY=your_openai_api_key
+   OPENWEATHER_API_KEY=your_openweather_api_key
    ```
 
 ## Usage
@@ -102,5 +103,4 @@ After completing the installation steps, you can run the Jupyter Notebook or the
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
 ```
